@@ -2,37 +2,30 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h1 {
+  color: black;
+  font-family: OCR A Std, monospace;
+  text-shadow: 3px 3px 5px rgb(241, 244, 242);
+  font-size: 45px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-image: url(/pokedex.jpg);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.li {
+  background-color: #c8c6d3;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 10px  black;
+  display: inline-block;
+  list-style: none;
+  margin: 30px;
+  padding: 30px;
+  transition: 1s;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li:hover {
+  background-color: gray;
+  padding: 50px;
+  transition: 1s;
 }
